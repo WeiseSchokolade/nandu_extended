@@ -1,4 +1,4 @@
-import { Renderer, RRSWJS, Graph, Camera, Mouse } from "../rrswjs.js";
+import { Renderer, RRSWJS, Graph, Camera, Mouse } from "./rrswjs.js";
 
 const body = document.body;
 const overlayCanvas = document.getElementById("overlayCanvas");
