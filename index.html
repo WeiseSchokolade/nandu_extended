@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nandu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="overlayCanvas" class="overlayCanvas"></canvas>
+    <div class="toolbox">
+        <button id="tableGenerationButton">Tabelle anzeigen</button>
+        <button id="loadFileButton">Datei laden</button>
+        <button id="wipeButton">Arbeitsbereich leeren</button>
+    </div>
+    <div id="canvasContainer" class="canvasContainer">
+        <canvas id="canvas" class="mainCanvas"></canvas>
+    </div>
+    <div id="infoContainer" class="infoContainer">
+        <div id="tableContainer" class="tableContainer">
+            <div class="innerContainer">
+                <table id="truthTable" class="truthTable"></table>
+            </div>
+        </div>
+        <button id="tableHideButton" class="tableHideButton">Close</button>
+        <div id="infoLoadingContainer" class="infoLoadingContainer">
+            Lädt...
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
